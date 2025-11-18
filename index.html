@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Know about ~ Tanuja Deshpande</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <!-- Loader (brief) -->
+  <div id="loader" aria-hidden="true">
+    <div class="loader-ring"></div>
+    <div class="loader-name">Tanuja</div>
+  </div>
+
+  <!-- NAVBAR (logo left, minimal) -->
+  <header class="header">
+    <nav class="nav container">
+      <div class="nav-left">
+        <img src="assets/images/logo5.png" alt="logo" class="nav-logo" />
+      </div>
+
+      <div class="nav-right">
+        <!-- Buttons open frames -->
+        <button class="nav-btn" id="openAbout">About</button>
+        <button class="nav-btn" id="openProjects">Projects</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I’m <span>Tanuja Deshpande</span></h1>
+          <p class="lead">Simplicity shaped into software. Work-for-a-Work!</p>
+
+          <div class="hero-actions">
+            <button class="btn-primary" id="openAbout2">About & Skills</button>
+            <a class="btn-ghost" href="assets/Tanuja_Deshpande_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-photo">
+          <img src="assets/images/tanujaPh.jpeg" alt="Tanuja photo">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Slide-up Frame: ABOUT + SKILLS -->
+  <div class="frame-overlay" id="frameOverlay" aria-hidden="true"></div>
+
+  <section class="frame" id="frameAbout" role="dialog" aria-modal="true" aria-labelledby="aboutTitle" tabindex="-1">
+    <div class="frame-inner">
+      <button class="frame-close" data-close>&times;</button>
+      <h2 id="aboutTitle">About</h2>
+
+      <div class="frame-grid">
+        <div class="frame-block">
+          <h3>About me</h3>
+          <p>
+            I’m a Computer Science engineer who blends curiosity and craft into practical projects.
+            I focus on clarity, small delightful interactions, and solving user problems with simple code.
+          </p>
+        </div>
+
+        <div class="frame-block">
+          <h3>Skills</h3>
+          <div class="skill-tags">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Web Design</span>
+            <span class="tag">AI Experiments</span>
+            <span class="tag">Cloud Enthusiast</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide-up Frame: PROJECTS + INTERNSHIP -->
+  <section class="frame" id="frameProjects" role="dialog" aria-modal="true" aria-labelledby="projectsTitle" tabindex="-1">
+    <div class="frame-inner">
+      <button class="frame-close" data-close>&times;</button>
+      <h2 id="projectsTitle">Projects</h2>
+
+      <div class="frame-grid col-1">
+        <div class="project-list">
+          <article class="mini-card">
+            <h4>Random Quote Generator</h4>
+            <p>Minimal UI, delightful daily quotes. <a href="https://raj21laxmi.github.io/Random_Quote_Generator_Website/" target="_blank" rel="noopener">Live</a></p>
+          </article>
+
+          <article class="mini-card">
+            <h4>Hybrid Traffic Safety System</h4>
+            <p>YOLO-based detection modules for helmet and plate recognition. <a href="https://github.com/raj21laxmi/Hybrid_Traffic_Safety_System" target="_blank" rel="noopener">Code</a></p>
+          </article>
+
+          <article class="mini-card">
+            <h4>Food Ordering System</h4>
+            <p>Django framework used for food order system and Mysql to store data. <a href="https://github.com/raj21laxmi/Hybrid_Traffic_Safety_System" target="_blank" rel="noopener">Code</a></p>
+          </article>
+
+          
+        </div>
+         <h2 id="projectsTitle">Internships</h2>
+        <div class="internship">
+          
+          <p><strong>DIAT-DRDO — AI/ML Intern</strong><br>
+            Built an Blade-damage-detection model using (YOLOv8). Worked with dataset annotation and model evaluation.
+          </p>
+          
+        </div>
+        <div class ="internship">
+            <p><strong>Cisco Networking Academy — Cyber-Security Intern</strong><br>
+            Developed a Packet Flow Visualizer to demonstrate packet movement through networks.
+           </p>
+
+          </div>
+        <div class ="internship">
+            <p><strong>Salesforce-SmartInterz — Salesforce Developer</strong><br>
+            Throughout the internship completed modules like Salesforce Fundamentals, Organizational Setup, Relationship & Process Automation, Apex, Testing & Debugging, Lightning Web Components (LWC) & API.
+           </p>
+
+          </div>
+          
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (very minimal) -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <small>© 2025 - Rajlaxmi..</small>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/tanuja-deshpande-498b8a21b" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/raj21laxmi" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+        <a href="mailto:tanujadeshpande07@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
